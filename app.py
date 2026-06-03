@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Hello from inside my very first container! My app is running and deployed on cloud!'
+    return 'Hello from inside my very first container! I can also deploy the changes!'
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=True)
